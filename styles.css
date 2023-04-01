@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c;
+    color: white;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 40px;
+    margin-top: 0;
+  }
+  
+  form {
+    margin-top: 50px;
+    display: inline-block;
+  }
+  
+  form label {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  form input[type="password"] {
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 300px;
+    margin-right: 10px;
+  }
+  
+  form button {
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #3f3f3f;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .door-container {
+    margin-top: 50px;
+    position: relative;
+  }
+  
+  
+  
+  
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .timer-container {
+    margin-top: 50px;
+  }
+  
+  .timer-label {
+    font-size: 24px;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .timer {
+    font-size: 24px;
+    display: inline-block;
+    background-color: #3f3f3f;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  @media (max-width: 767px) {
+    h1 {
+      font-size: 32px;
+    }
+  
+    form {
+      display: block;
+    }
+  
+    form input[type="password"] {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    .door-container {
+      margin-top: 20px;
+    }
+  
+    .left-door, .right-door {
+      height: 200px;
+    }
+  
+    .center-circle {
+      width: 100px;
+      height: 100px;
+      top: calc(50% - 50px);
+      left: calc(50% - 50px);
+    }
+  
+    .timer-container {
+      margin-top: 20px;
+    }
+  
+    .timer-label {
+      font-size: 20px;
+      display: block;
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    .timer {
+      font-size: 20px;
+      display: block;
+      padding: 10
+    }
+
+    @media (max-width: 575px) {
+      h1 {
+        font-size: 24px;
+      }
+    
+      form label {
+        font-size: 20px;
+      }
+    
+      form input[type="password"] {
+        font-size: 20px;
+        padding: 8px;
+      }
+    
+      form button {
+        font-size: 20px;
+        padding: 8px;
+      }
+    
+      .left-door, .right-door {
+        height: 150px;
+      }
+    
+      .center-circle {
+        width: 80px;
+        height: 80px;
+        top: calc(50% - 40px);
+        left: calc(50% - 40px);
+      }
+    
+      .timer-label {
+        font-size: 16px;
+      }
+    
+      .timer {
+        font-size: 16px;
+        padding: 8px 16px;
+      }
+    }
+}
+      
